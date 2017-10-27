@@ -1,0 +1,647 @@
+//META{"name":"RWBY","description":"RWBY themed background (Theme is auto-updating)","author":"Ven0mstrike42","version":"1.2"}*//{}
+
+
+
+/* Background */
+
+
+.container-2OU7Cz, .theme-dark .title-qAcLxz, .channels-3g2vYe, .theme-dark .chat form, .theme-dark .headerBar-cxbhPD {
+    background-color: transparent;
+}
+
+css.theme-dark .title-qAcLxz, .channels-3g2vYe, .titleWrapper-3Vi_wz, .theme-dark .title-qAcLxz {
+Background-color: transparent !important;
+}
+
+/* Main background and settings background */
+.app,
+.callout-backdrop {
+    background-image: url(http://s3.amazonaws.com/rtv3.image.cdn.roosterteeth.com/store/a6d457a1-848c-43a9-a3fa-7c512f99018b.jpg/original/RWBY_v5_page_banner_master.jpg) !important;
+    background-size:cover !important;
+
+}
+
+.container-2OU7Cz, .channels-3g2vYe, .title-qAcLxz,
+.theme-dark .chat form, .headerBar-cxbhPD
+{ background-color: transparent; }
+
+/* Channel List, Server Name */
+ .title-qAcLxz {
+    background: transparent !important;
+}
+
+
+/* Friends Header */
+.headerBar-cxbhPD {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+
+
+/*DoNotTouchThisUnlessYouKnowWhatYouAreDoing*/
+
+/*Transparency*/
+#voice-connection, #friends, .friends-header, .friends-table, .guilds-wrapper, .guild-header header, .channels-wrap, .private-channels .search-bar, .private-channels,
+ .guild-channels, .account, .friend-table-add-header, .chat, .content, .layers, .title-wrap:not(.search-bar), .messages-wrapper, .messages .divider span, .messages .divider:before, 
+ .content, .message-group-blocked, .is-local-bot-message, .channel-members-loading, .channel-members-loading .heading, .channel-members-loading .member, .typing, .layer, .layers, 
+ .container-RYiLUQ, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view .content-region, 
+ .theme-dark .channel-members, .layer, .layers {
+    background-color: rgba(0,0,0,.2) !important;
+}
+/*.title-wrap, .messages-wrapper, .flex-spacer, .scroller, .account, .links, .btn-settings, .btn-deafen, .btn-mute, .btn-info, .btn-disconnect, .typing, .private-channels, .search-bar, .friends-header, .friends-table, .messages .markup pre, #friends, #voice-connection,.guilds-wrapper .guilds .guild .guild-inner,
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+	border:3px solid rgba(255,255,255,0) !important;
+}*/
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+	border:3px solid rgba(255,255,255,0) !important;
+	background-color:rgba(0,0,0,0.6) !important;
+}
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+	border:3px solid rgba(255,255,255,0) !important;
+	background-color:rgba(0,0,0,0.6) !important;
+    visibility:hidden;
+}
+.channel-text-area-default [class*="inner-"],  /* The chat bar */
+.channel-text-area-default [class*="autocomplete-"], /* Auto complete wrapper */
+.channel-text-area-default [class*="autocompleteInner-"], /* Auto complete container */
+.channel-text-area-default [class*="selectorSelected-"] { /* Selected item in auto complete */
+    background-color: rgba(0,0,0,.4); }
+.contentSelectedText-3j5CXt,
+.contentHoveredText-2HYGIY, 
+.contentHoveredVoice-3qGNKh:active, 
+.contentSelectedVoice-gTtYM9:active,
+.private-channels .channel.selected a,
+.private-channels .channel:hover a{
+	background-color: rgba(0,0,0,.4) ;
+}
+.guild-header ul {
+    -webkit-transform: translate3d(0, -140%, 0) !important;
+    transform: translate3d(0, -140%, 0) !important;
+  }
+.guild-header.guild-header-open ul {
+    -webkit-transform: translate3d(0, 0, 0) !important;
+    transform: translate3d(0, 0, 0) !important;
+  }
+
+/*server name text above channel names*/
+.guild-header header span{
+    color:#f99e1a;
+    
+    
+    font-weight:800;
+   /*text-shadow:0 0 15px #ff6a00;*/
+    /*cool method for an outline+shadow*/
+    text-shadow:1px 1px 0 #43484c,
+-1px -1px 0 #43484c,
+1px -1px 0 #43484c,
+-1px 1px 0 #43484c,
+0px 1px 0 #43484c,
+1px 0px 0 #43484c,
+0px -1px 0 #43484c,
+0 0 15px #faf5ab,
+-1px 0px 0 #43484c;
+}
+/*channel name above chat messages*/
+.theme-dark .chat .title-wrap .channel-name,.titleWrapper-3Vi_wz, .theme-dark .topic-1KFf6J, .theme-dark .channelName-1G03vu, .theme-dark .groupDM-3gzbyG .channelName-1G03vu, .theme-dark .groupDMManaged-2z2S1A .channelName-1G03vu{
+    color:#f99e1a;
+    font-weight:800;
+    text-shadow:1px 1px 0 #43484c,
+-1px -1px 0 #43484c,
+1px -1px 0 #43484c,
+-1px 1px 0 #43484c,
+0px 1px 0 #43484c,
+1px 0px 0 #43484c,
+0px -1px 0 #43484c,
+0 0 15px #faf5ab,
+-1px 0px 0 #43484c;
+}
+/*user activity aka what game they are playing or w/e*/
+.channel-members .member .member-activity strong{
+    color:#f99e1a;
+}
+/*Chat window background image*/
+/*.chat {
+    background-image: url(https://us.battle.net/forums/static/images/game-logos/game-logo-overwatch.png) !important;
+    background: transparent;
+    background-size: 349px 72px !important;
+    background-repeat: no-repeat !important;
+    background-position: 40% 50% !important;
+}
+.channels-wrap, .channels-3g2vYe {
+    background-image: url(https://img00.deviantart.net/c642/i/2017/187/c/c/chibi_dva_by_cristal_zhaduir-dbfc7sg.png) !important;
+    background-image:url(https://files.gamebanana.com/img/ico/sprays/577dfddf73519.png) !important;
+    
+    background: transparent;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+}
+.channel-members-wrap {
+    background: transparent;
+    background-image: url(https://i.imgur.com/DDjatA8.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+}*/
+/*server members role names*/
+.theme-dark .channel-members h2{
+    color:#f99e1a !important;
+}
+
+/*chat messages*/
+.theme-dark .friends-table .messages .message-group .comment .markup, .theme-dark .messages-wrapper .messages .message-group .comment .markup {
+    color:#f99e1a;
+    
+    
+    font-weight:800;
+   /*text-shadow:0 0 15px #ff6a00;*/
+    /*cool method for an outline+shadow*/
+    text-shadow:1px 1px 0 #43484c,
+-1px -1px 0 #43484c,
+1px -1px 0 #43484c,
+-1px 1px 0 #43484c,
+0px 1px 0 #43484c,
+1px 0px 0 #43484c,
+0px -1px 0 #43484c,
+0 0 20px #faf5ab,
+-1px 0px 0 #43484c;
+        
+}
+
+.theme-dark .friends-table .messages .message-group a, .theme-dark .messages-wrapper .messages .message-group a {
+    text-shadow:none;
+}
+.highlight{
+    text-shadow:none;
+}
+
+.theme-dark .friends-table .messages .message-group h2 strong, .theme-dark .messages-wrapper .messages .message-group h2 strong, .channel-members .member .member-username-inner{
+
+     text-shadow:1px 1px 0 rgba(0,0,0,0.7),
+-1px -1px 0 rgba(0,0,0,0.7),
+1px -1px 0 rgba(0,0,0,0.7),
+-1px 1px 0 rgba(0,0,0,0.7),
+0px 1px 0 rgba(0,0,0,0.7),
+1px 0px 0 rgba(0,0,0,0.7),
+0px -1px 0 rgba(0,0,0,0.7),
+-1px 0px 0 rgba(0,0,0,0.7);
+}
+/*TEXT CHANNELS/VOICE CHANNELS text*/
+.guild-channels header h2{
+    color:#f99e1a !important;
+    opacity:1 !important;
+}
+.guild-channels ul .channel a{
+    color:#f99e1a !important;
+    opacity:1 !important;
+}
+.guild-channels .channel a{
+     color:#f99e1a !important;
+    opacity:1 !important;
+}
+.guild-channels ul .channel-text.channel-muted:not(.selected) span{
+    color:#f99e1a !important;
+    opacity:1 !important;
+}
+
+.guild-channels .channel .channel-name{
+    color:#f99e1a !important;
+    opacity:1 !important;
+}
+/*selected text channel*/
+.guild-channels ul .channel-text.selected a{
+    color:#f99e1a !important;
+    font-weight:800 !important;
+    text-shadow:1px 1px 0 #43484c,
+-1px -1px 0 #43484c,
+1px -1px 0 #43484c,
+-1px 1px 0 #43484c,
+0px 1px 0 #43484c,
+1px 0px 0 #43484c,
+0px -1px 0 #43484c,
+0 0 15px #faf5ab,
+-1px 0px 0 #43484c;
+    
+}
+.guild-channels .channel-text.selected a{
+    color:#f99e1a !important;
+    font-weight:800 !important;
+    text-shadow:1px 1px 0 #43484c,
+-1px -1px 0 #43484c,
+1px -1px 0 #43484c,
+-1px 1px 0 #43484c,
+0px 1px 0 #43484c,
+1px 0px 0 #43484c,
+0px -1px 0 #43484c,
+0 0 15px #faf5ab,
+-1px 0px 0 #43484c;
+}
+/*unread channels */
+.guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted) a{
+    color:#f99e1a;
+}
+/*text channel background/highlight*/
+li.selected, span > div.selected, section > div > div > div > div > div.selected, .friends-row:hover, li.channel-text:hover, div.channel.private:hover, .btn-friends:hover, .messages .markup pre code.hljs, .member:hover {
+    background: rgba(60, 60, 60, 0) !important;
+}
+/* clicks next to server icons for unread messages */
+.guilds-wrapper .guilds .guild.unread:before
+{
+    background:#f99e1a;
+}
+/*clicks next to channel names for unread*/
+.guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before{
+    background:#f99e1a !important;
+}
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before{
+    background:#f99e1a !important;
+
+}
+
+/*text in voice channel while not talking*/
+.guild-channels ul .channel-voice.audio li{
+    color:#f99e1a !important;
+}
+.guild-channels .channel-voice-states li span
+{
+    color:#f99e1a !important;
+}
+.guild-channels ul .channel-voice-states li{
+    color:#f99e1a !important;
+}
+/*voice connected text*/
+#voice-connection .voice-connection-status-connected{
+    color:#f99e1a;
+    font-weight:800;
+     text-shadow:1px 1px 0 #43484c,
+-1px -1px 0 #43484c,
+1px -1px 0 #43484c,
+-1px 1px 0 #43484c,
+0px 1px 0 #43484c,
+1px 0px 0 #43484c,
+0px -1px 0 #43484c,
+0 0 15px #faf5ab,
+-1px 0px 0 #43484c;
+}
+/*text of the channel you are connected to at the bottom*/
+#voice-connection .voice-connection-channel{
+    color:#f99e1a !important;
+    opacity:1 !important;
+}
+/*voice channel text that you are connected to*/
+.guild-channels ul .channel-voice.audio a {
+    color:#f99e1a !important;
+    font-weight:800;
+    opacity:1 !important;
+    text-shadow:1px 1px 0 #43484c,
+-1px -1px 0 #43484c,
+1px -1px 0 #43484c,
+-1px 1px 0 #43484c,
+0px 1px 0 #43484c,
+1px 0px 0 #43484c,
+0px -1px 0 #43484c,
+0 0 15px #faf5ab,
+-1px 0px 0 #43484c;
+}
+/* color of avatar outline when speaking*/
+.guild-channels ul .channel-voice-states li.speaking .avatar-small{background-color:#6F8AE0;cursor:pointer;border:2px solid #f99e1a !important;}
+.guild-channels .channel-voice-states li.speaking .avatar-small{
+    background-color:#6F8AE0;cursor:pointer;border:2px solid #f99e1a !important;
+}
+/*color of name text when speaking*/
+.guild-channels ul .channel-voice-states li.speaking{
+    color:#f99e1a !important;
+    text-shadow:1px 1px 0 #43484c,
+-1px -1px 0 #43484c,
+1px -1px 0 #43484c,
+-1px 1px 0 #43484c,
+0px 1px 0 #43484c,
+1px 0px 0 #43484c,
+0px -1px 0 #43484c,
+0 0 15px #faf5ab,
+-1px 0px 0 #43484c;
+}
+
+/*friends online text*/
+.guilds-wrapper .guilds .friends-online{
+    opacity:1;
+    color:#f99e1a;
+}
+/*your account username and # at the bottom left*/
+.account .account-details .discriminator{
+    color:#f99e1a !important;
+  
+
+    opacity:1 !important;
+    
+}
+.account .account-details .username{
+    color:#f99e1a !important;
+    font-weight:800;
+    opacity:1 !important;
+    text-shadow:1px 1px 0 #43484c,
+-1px -1px 0 #43484c,
+1px -1px 0 #43484c,
+-1px 1px 0 #43484c,
+0px 1px 0 #43484c,
+1px 0px 0 #43484c,
+0px -1px 0 #43484c,
+0 0 15px #faf5ab,
+-1px 0px 0 #43484c;
+}
+/*disconnect from chat button*/
+#voice-connection .btn:after{
+
+	-webkit-filter: brightness(50%) sepia(1) saturate(290%) brightness(120%);
+    opacity:1;
+}
+
+#voice-connection .btn:hover{
+    -webkit-filter: saturate(0%) brightness(2);
+   
+    opacity:1;
+}
+
+/*setting type things*/
+
+
+
+.account .btn-group > *:after{
+
+    /*
+        h 36 -210  =-174
+        s 100+ (90-6)=184
+        l 100+ (73-41)=132
+    */
+	-webkit-filter: sepia(1) saturate(290%) brightness(120%);
+   
+    opacity:1;
+
+    
+
+}
+
+.account .btn-group > *:hover:after{
+
+	-webkit-filter: brightness(2);
+
+    
+
+
+
+}
+.account .btn-settings:after{
+	-webkit-filter: brightness(50%) sepia(1) saturate(290%) brightness(120%);
+
+}
+/*user muted icon*/
+.guild-channels ul .channel-voice-states li .icon-muted{
+		-webkit-filter: sepia(1) saturate(290%) brightness(120%);
+
+
+}
+/*user deafened icon*/
+.guild-channels ul .channel-voice-states li .icon-deafened{
+		-webkit-filter: sepia(1) saturate(290%) brightness(120%);
+
+}
+/*channel locked icon */
+.guild-channels .icon-lock{
+		-webkit-filter: brightness(50%) sepia(1) saturate(290%) brightness(120%);
+    opacity:1;
+}
+
+/*instant invite icon */
+.guild-channels .icon-instant-invite{
+    -webkit-filter: brightness(50%) sepia(1) saturate(290%) brightness(120%);
+    opacity:1;
+}
+/*voice channel arrows*/
+.guild-channels ul .channel-voice .channel-arrow{
+    -webkit-filter: brightness(50%) sepia(1) saturate(290%) brightness(120%);
+}
+/*add new voice/text channel + symbol*/
+.guild-channels header button:after{
+    -webkit-filter: brightness(50%) sepia(1) saturate(290%) brightness(120%);
+
+}
+/*server settings button*/
+.btn-hamburger{
+    -webkit-filter: brightness(50%) sepia(1) saturate(290%) brightness(120%);
+
+}
+/*curent server selected*/
+.guilds-wrapper .guilds .guild.selected:before, .guilds-wrapper{
+    background-color:#faf5ab;
+    
+}
+/*chatbox text*/
+.channel-textarea-inner textarea, .search-bar.search-bar-light input, .theme-dark .textArea-20yzAH{
+    color:#f99e1a !important;
+    font-weight:800 !important;
+    text-shadow:1px 1px 0 #43484c,
+-1px -1px 0 #43484c,
+1px -1px 0 #43484c,
+-1px 1px 0 #43484c,
+0px 1px 0 #43484c,
+1px 0px 0 #43484c,
+0px -1px 0 #43484c,
+-1px 0px 0 #43484c;
+
+    
+}
+
+
+/*border around typing area*/
+.theme-dark .channel-textarea-inner{
+    border-color:rgba(249, 158, 26, 0.30) !important;
+
+}
+.channel-textarea-inner
+{
+    border:1px !important;
+}
+/*border next to upload button*/
+.theme-dark .channel-textarea-inner .channel-textarea-upload{
+    border-right-color:rgba(249, 158, 26, 0.30) !important;
+}
+
+/*upload button*/
+.theme-dark .channel-textarea-upload{
+     -webkit-filter: brightness(50%) sepia(1) saturate(290%) brightness(120%);
+}
+/*buttons at top middle*/
+.header-toolbar button span{
+     -webkit-filter: brightness(50%) sepia(1) saturate(290%) brightness(120%);
+    
+}
+/*windows minimize close buttons etc.*/
+.win-buttons{
+     -webkit-filter: brightness(50%) sepia(1) saturate(290%) brightness(120%);
+
+}
+/*the # before channel name*/
+.chat>.title-wrap>.title .channel-name:before{
+        color:#f99e1a !important;
+}
+/*the # before channel name in channel list*/
+.guild-channels ul .channel-text .channel-name:before{
+        color:#f99e1a !important;
+}
+/*text next to channel name above chat*/
+.theme-dark .chat .title-wrap .topic{
+    color:rgba(249, 158, 26, 0.30) !important;
+}
+/*border bottom under channel title at top of chat*/
+.theme-dark .chat .title-wrap{
+    border-bottom-color:rgba(249, 158, 26, 0.30) !important;
+}
+/*box shadow*/
+.chat>.title-wrap
+{
+    box-shadow:none !important;
+}
+/* public button at top left*/
+.guilds-wrapper .guilds .guild .guild-inner a #bd-pub-button
+{
+        color:#f99e1a !important;
+    
+}
+/*popout when you click a username*/
+.user-popout .header{
+    
+    opacity:1;
+}
+.popout-menu,
+ .option-popout, .context-menu, .emoji-picker, .emoji-picker .sticky-header{
+background: rgba(32,34,37,.9) !important;
+}
+.theme-dark .cardPrimary-ZVL9Jr{
+    background: rgba(32,34,37,.2);
+}
+.body-3rkFrF, .footer-2J5zqP, .headerNormal-1cioxU {
+    background: rgba(32,34,37,.7);
+}
+.quick-message, .search-bar.search-bar-light, .search-bar.search-bar-light .search-bar-inner {
+    background: rgba(32,34,37,.4);
+}
+ .diversity-selector .popout {
+    background: rgba(32,34,37,.4);
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,.1);
+    /* border: 1px solid #dadddf; */
+    border-radius: 3px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    margin-left: -1px;
+    margin-top: -1px;
+    position: absolute;
+}
+.emoji-picker .dimmer.visible {
+    background-color: rgba(0,0,0,.2);
+    pointer-events: auto;
+}
+.header-1tSljs, .private-channels .search-bar{
+border-bottom-color: rgba(249, 158, 26, 0.30) !important;
+}
+.scroller-NXV0-d {
+    background: rgba(32,34,37,0);
+}
+
+/*Guild Channels and Member list color and outine */
+.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa, .nameHoveredText-2FFqiz, .nameHoveredVoice-TIoHRJ {
+    color: #f99e1a;
+}
+.nameSelectedText-32NDX5, .nameSelectedVoice-XpjYTw, .nameUnreadText-1pxldj {
+        color:#f99e1a;
+    
+    
+    font-weight:800;
+   /*text-shadow:0 0 15px #ff6a00;*/
+    /*cool method for an outline+shadow*/
+    text-shadow:1px 1px 0 #43484c,
+-1px -1px 0 #43484c,
+1px -1px 0 #43484c,
+-1px 1px 0 #43484c,
+0px 1px 0 #43484c,
+1px 0px 0 #43484c,
+0px -1px 0 #43484c,
+0 0 20px #faf5ab,
+-1px 0px 0 #43484c;
+}
+.nameMutedText-1YDcP-, .nameMutedVoice-26k4cP {
+    color: rgb(121, 78, 15);
+}
+
+ .nameHoveredText-2FFqiz, .nameUnreadText-1pxldj, .nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa, .nameMutedText-1YDcP-, .nameMutedVoice-26k4cP, .nameHoveredVoice-TIoHRJ{
+
+     text-shadow:1px 1px 0 rgba(0,0,0,0.7),
+-1px -1px 0 rgba(0,0,0,0.7),
+1px -1px 0 rgba(0,0,0,0.7),
+-1px 1px 0 rgba(0,0,0,0.7),
+0px 1px 0 rgba(0,0,0,0.7),
+1px 0px 0 rgba(0,0,0,0.7),
+0px -1px 0 rgba(0,0,0,0.7),
+-1px 0px 0 rgba(0,0,0,0.7);
+}
+
+/*Custom Fonts*/
+@font-face {
+font-family: rwby;
+src: url(https://cdn.rawgit.com/Ven0mstrike42/RWBY-BD-Theme/c9371f6e/rwby_style.ttf);
+}
+
+.channel-name, .name-3gtcmp {
+font-family: rwby;
+}
+
+/*Guild Name*/
+
+.name-3gtcmp {
+    color: #f6f6f7;
+	font-size: 30px;
+         text-shadow:1px 1px 0 hsla(0,0%,100%,.1),
+        -1px -1px 0 hsla(0,0%,100%,.1),
+        1px -1px 0 hsla(0,0%,100%,.1),
+        -1px 1px 0 hsla(0,0%,100%,.1),
+        0px 1px 0 hsla(0,0%,100%,.1),
+        1px 0px 0 hsla(0,0%,100%,.1), 
+        0px -1px 0 hsla(0,0%,100%,.1), 
+        -1px 0px 0 hsla(0,0%,100%,.1);
+}
+
+
+/*Bot Icon*/
+/*.channel-members .bot-tag, .bot-tag, .header-3mZJcV .headerBotTag-1I8GCn {
+    height: 18px;
+    width: 16px;
+    line-height: 15px;
+}
+.bot-tag {
+    -ms-flex-negative: 0;
+    background: transparent;
+    background-size: cover;
+    background-image: url(https://i.imgur.com/2IJNyyh.png);
+    border-radius: 3px;
+    color: transparent !important;
+    flex-shrink: 0;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-left: 6px;
+    padding: 1px 2px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.botTagInvert-gorWR_ {
+    background: transparent;
+    background-size: cover;
+    background-image: url(https://i.imgur.com/2IJNyyh.png);
+    color: transparent !important;
+}*/
